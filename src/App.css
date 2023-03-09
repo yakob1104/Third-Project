@@ -6,7 +6,8 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css";
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

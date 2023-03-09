@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "adminadmin",
+      "isAdmin": true
+    }
+  ],
+  "products": [],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "products": [
+        1,
+        3,
+        2
+      ],
+      "active": true
+    }
+  ]
+}

@@ -8,6 +8,8 @@ const Home: FunctionComponent<HomeProps> =() => {
         <>
         <Navbar/>
         <h3 className="dispaly-3">Home</h3>
+        <h4>Welcome This is the home page</h4>
+        <p>Here you can see all of our companys bizz cards!</p>
         </>
     );
 };

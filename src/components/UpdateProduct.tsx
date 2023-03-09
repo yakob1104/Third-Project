@@ -43,7 +43,7 @@ const UpdateProduct: FunctionComponent<UpdateProductProps> = ({
       updateProduct({ ...values, id: productId })
         .then(() => {
           onHide();
-          successMsg("Product updated successfully!");
+          successMsg("Card updated successfully!");
           refresh();
         })
         .catch((err) => console.log(err));
@@ -64,7 +64,7 @@ const UpdateProduct: FunctionComponent<UpdateProductProps> = ({
             type="text"
             className="form-control"
             id="nameInput"
-            placeholder="product name"
+            placeholder="card name"
             name="name"
             onChange={formik.handleChange}
             value={formik.values.name}
@@ -76,17 +76,6 @@ const UpdateProduct: FunctionComponent<UpdateProductProps> = ({
           )}
         </div>
         <div className="form-floating mb-3">
-          <input
-            type="number"
-            className="form-control"
-            id="priceInput"
-            placeholder="1"
-            name="price"
-            onChange={formik.handleChange}
-            value={formik.values.price}
-            onBlur={formik.handleBlur}
-          />
-          <label htmlFor="priceInput">Price</label>
           {formik.touched.price && formik.errors.price && (
             <p className="text-danger">{formik.errors.price}</p>
           )}

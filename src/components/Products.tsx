@@ -39,10 +39,10 @@ const Products: FunctionComponent<ProductsProps> = () => {
   return (
     <>
       <Navbar />
-      <h5 className="display-5 text-center">OUR PRODUCTS</h5>
+      <h5 className="display-5 text-center">OUR CARDS</h5>
       {isAdmin && (
         <button className="btn btn-success" onClick={handleAddProduct}>
-          <i className="fa-solid fa-plus"></i> Product
+          <i className="fa-solid fa-plus"></i> CARDS
         </button>
       )}
       {products.length ? (

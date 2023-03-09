@@ -27,7 +27,7 @@ const DeleteProductModal: FunctionComponent<DeleteProductModalProps> = ({
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            DELETE PRODUCT
+            DELETE CARD
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

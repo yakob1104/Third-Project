@@ -26,7 +26,7 @@ const UpdateProductModal: FunctionComponent<UpdateProductModalProps> = ({
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            UPDATE PRODUCT
+            UPDATE CARDS
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

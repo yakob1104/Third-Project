@@ -35,6 +35,15 @@ return (
                 Cards
                 </NavLink>
             </li>
+            <li className="nav-item">
+                <NavLink
+                className="nav-link"
+                aria-current="page"
+                to="/about"
+                >
+                About
+                </NavLink>
+            </li>
             </ul>
             <form className="d-flex" role="search">
             <button

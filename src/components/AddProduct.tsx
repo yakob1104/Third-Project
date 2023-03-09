@@ -33,7 +33,7 @@ const AddProduct: FunctionComponent<AddProductProps> = ({
       addProduct(values)
         .then(() => {
           onHide();
-          successMsg("Product added successfully!");
+          successMsg("Card added successfully!");
           refresh();
         })
         .catch((err) => console.log(err));
@@ -74,7 +74,7 @@ const AddProduct: FunctionComponent<AddProductProps> = ({
             value={formik.values.price}
             onBlur={formik.handleBlur}
           />
-          <label htmlFor="priceInput">Price</label>
+          <label htmlFor="priceInput">Net worth</label>
           {formik.touched.price && formik.errors.price && (
             <p className="text-danger">{formik.errors.price}</p>
           )}

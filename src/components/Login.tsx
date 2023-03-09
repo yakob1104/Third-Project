@@ -73,7 +73,7 @@ const Login: FunctionComponent<LoginProps> = () => {
                 </div>
                 <button 
                 type="submit"
-                className="btn btn-secondray w-100 my-3"
+                className="btn btn-sucess w-100 my-3"
                 disabled={!formik.dirty || !formik.isValid}
                 >
                     Login
